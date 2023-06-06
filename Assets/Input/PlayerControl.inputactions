@@ -1,0 +1,45 @@
+{
+    "name": "PlayerControl",
+    "maps": [
+        {
+            "name": "Map",
+            "id": "881199e8-b0ef-4e93-9e0f-db0544c9e993",
+            "actions": [
+                {
+                    "name": "TapAction",
+                    "type": "Button",
+                    "id": "7ff9edea-6603-466a-ba24-fac2ff3be5bd",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "412fa026-099e-4ca5-b762-475bd4324e07",
+                    "path": "<Touchscreen>/Press",
+                    "interactions": "Tap",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TapAction",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c8540f74-bac5-44bc-842e-e54e659ea19e",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TapAction",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
